@@ -17,28 +17,30 @@
             <Label>SIGN UP</Label>
         </div>
         <div>
-            <input type="text" class="fname-align design design-input" placeholder="First Name"/>
-            <input type="text" class="lname-align design design-input" placeholder="Last Name"/>
+            <input type="text" name="firstname" class="fname-align design design-input" placeholder="First Name" required/>
+            <input type="text" name="lastname" class="lname-align design design-input" placeholder="Last Name" required/>
         </div>
         <div>
-            <input type="text" class="bname-align design design-input" placeholder="Business Name"/>
+            <input type="text" name="Businessname" class="bname-align design design-input" placeholder="Business Name" required/>
         </div>
         <div>
-            <input type="text" class="address-align design design-input" placeholder="Address"/>
+            <input type="text" name="address"class="address-align design design-input" placeholder="Address" required/>
         </div>
         <div>
-            <input type="text" class="email-align design design-input" placeholder="Email"/>
+            <input type="text" name="email" class="email-align design design-input" placeholder="Email" required/>
         </div>
         <div>
-            <input type="number" class="cnum-align design" placeholder="Contact Number"/>
-            <input type="text" class="uname-align design design-input" placeholder="Username"/>
+            <input type="number" name="contact" class="cnum-align design" placeholder="Contact Number" required/>
+            <input type="text" name="username" class="uname-align design design-input" placeholder="Username" required/>
         </div>
         <div>
-            <input type="number" class="wfpnum-align design design-input" placeholder="Wildlife Farm Permit (WFP) Number"/>
+            <input type="number" name="Wildlifefapermit" class="wfpnum-align design design-input" placeholder="Wildlife Farm Permit (WFP) Number" required/>
         </div>
         <div>
-            <input type="number" class="wcpnum-align design design-input" placeholder="Wildlife Collector Permit (WCP) Number"/>
+            <input type="number" name="Wildlifecolpermit" class="wcpnum-align design design-input" placeholder="Wildlife Collector Permit (WCP) Number" required/>
+            <input class="button" type="submit">
         </div>
+
 
         <div class="checkbox">
                 
@@ -49,7 +51,7 @@
          
          </div>
         
-         <button>SIGN UP</button>
+         
 
          <div>
             <span class="acclink">Already have an account? <a class="l" href="login.html">Log in</a></span>
