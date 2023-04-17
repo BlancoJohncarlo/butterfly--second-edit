@@ -160,7 +160,7 @@ label{
     cursor: pointer;
 }
 
-button{
+.button{
     position: absolute;
     background: linear-gradient(270deg, #536A10 0%, rgba(87, 157, 31, 0) 152.73%);
     color: #fff;
